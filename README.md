@@ -28,7 +28,7 @@ Cet exécutable est fourni au format binaire autonome. Il a été compilé sous 
 
                        =============================
 
->Pour en savoir plus sur le fonctionnement et l'usage de ce > programme,
+>Pour en savoir plus sur le fonctionnement et l'usage de ce programme,
 >consulter le guide proposé dans la barre de menu du programme.
 
                        =============================

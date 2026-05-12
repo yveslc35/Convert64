@@ -7,7 +7,7 @@ pourra servir par la suite à tous les programmes pour illuster des icones ou de
 ## Procédure automatique : 
 
 1 Dézipper le dossier "Release_Github_Linux.tar.gz " et conservez-le.
-(https://github.com/myhumankit/Convert64/releases/tag/V.1.0).
+(https://github.com/myhumankit/Convert64/releases/tag/v.1.0).
 
 2 Lancer le script "Script_install.sh" (double-clic puis lancer)
 

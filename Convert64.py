@@ -80,18 +80,20 @@ def selecteur(titre, message):
 
 # --------Recherche dossier de stockage des images converties ------------
 def chercher_param():
-    # On récupère le dossier où se trouve réellement le script/l'exécutable
-    # .resolve() permet d'avoir le chemin absolu réel
-    dossier_auto = Path(__file__).parent.resolve()
-    
-    fiparam = dossier_auto / "param64.txt"
-    
+    # On définit un dossier spécifique à l'application dans le HOME de l'utilisateur
+    # Windows : C:\Users\Nom\.Convert64    Linux : /home/nom/.Convert64
+    dossier_config = Path.home() / ".Convert64"  
+    # On s'assure que le dossier existe (on le crée si besoin)
+    dossier_config.mkdir(exist_ok=True) 
+    fiparam = dossier_config / "param64.txt"   
     if fiparam.exists():
         dossstock = fiparam.read_text(encoding='utf-8').strip()
     else:
         dossstock = selecteur("Dossier de stockage des images en base 64",
-                              "Où voulez-vous enregistrer les images lors de leur conversion en base 64 ?")
-        fiparam.write_text(dossstock, encoding='utf-8')  
+                              "Où voulez-vous enregistrer les images lors de leur conversion en base 64 ?")      
+        # Sécurité : on n'écrit que si l'utilisateur a choisi un dossier
+        if dossstock:
+            fiparam.write_text(dossstock, encoding='utf-8')           
     return dossstock
 
 # -------LECTURE IMAGE SOURCE --------

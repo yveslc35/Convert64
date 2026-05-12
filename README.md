@@ -8,7 +8,7 @@ pourra servir par la suite à tous les programmes pour illuster des icones ou de
 
 1 Dézipper le dossier "Release_Github_Linux.tar.gz " et conservez-le.
 
-https://https://github.com/yveslc35/Convert64/releases/tag/v.1.0
+(https://github.com/yveslc35/Convert64/releases/tag/v.1.0)
 
 2 Lancer le script "Script_install.sh" (double-clic puis lancer)
 
@@ -29,7 +29,7 @@ Cet exécutable est fourni au format binaire autonome. Il a été compilé sous 
 
                        =============================
 
->Pour en savoir plus sur le fonctionnement et l'usage de ce > programme,
+>Pour en savoir plus sur le fonctionnement et l'usage de ce programme,
 >consulter le guide proposé dans la barre de menu du programme.
 
                        =============================
@@ -54,7 +54,7 @@ sudo chown -R $USER:$USER dist build
 
 1 Téléchargez le fichier `Release_Github_Windows.zip` dans les [Releases]
 
-https://https://github.com/yveslc35/Convert64/releases/tag/v.1.0
+https://github.com/yveslc35/Convert64/releases/tag/v.1.0
 
 2 Décompressez l'archive.
 

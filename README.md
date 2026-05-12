@@ -7,7 +7,8 @@ pourra servir par la suite à tous les programmes pour illuster des icones ou de
 ## Procédure automatique : 
 
 1 Dézipper le dossier "Release_Github_Linux.tar.gz " et conservez-le.
-(https://github.com/myhumankit/Convert64/releases/tag/v.1.0).
+
+(https://github.com/yveslc35/Convert64/releases/tag/v.1.0)
 
 2 Lancer le script "Script_install.sh" (double-clic puis lancer)
 
@@ -52,8 +53,11 @@ sudo chown -R $USER:$USER dist build
 # Installation d'EncapsArduino sous Windows
 
 1 Téléchargez le fichier `Release_Github_Windows.zip` dans les [Releases]
-(https://github.com/myhumankit/EncapsArduino/releases/tag/V.1.0).
+
+https://github.com/yveslc35/Convert64/releases/tag/v.1.0
+
 2 Décompressez l'archive.
+
 3 Double-cliquez sur `Convert64.exe`.
 
 

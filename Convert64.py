@@ -156,21 +156,24 @@ def afficher_apropos(window_parent):
 def afficher_aide(window_parent):
     window_parent.refresh()
     desc_aide = """
-    Ce programme convertit une image PNG en base64 et l'enregistre dans un fichier.
+         Programme de redimensionnement et de conversion en base64 d'une image PNG.
 
-    Cela permettra ensuite d'intégrer facilement cette image dans le code d'un programme pour
-    décorer, par exemple, un bouton ou afficher un logo.
+    Cette opération permettra ensuite d'intégrer facilement cette image dans le code d'un
+    programme pour, par exemple, décorer un bouton ou afficher un logo.
     
     A la première utilisation, le programme demande de choisir le dossier de stockage des images
     converties en base 64. 
     Un bouton permet de créer à cette occasion un nouveau dossier réservé à cet usage, mais il
     faut, bien entendu, avoir choisi au préalable le répertoire dans lequel mettre ce dossier.
-    Le chemin d'accès à ce dossier est alors mémorisé dans le fichier 'Param64.txt.
+    Le chemin d'accès à ce dossier est alors mémorisé dans le fichier 'param64.txt.
+    L'emplacement de ce dossier de stockage est affiché lorsqu'on lance le [Visualiseur]. 
     
     Si vous désirez par la suite déplacer le dossier de stockage, il faut le copier à son
-    nouvel emplacement puis supprimer ensuite le fichier 'Param64.txt' qui se trouve dans
-    le même répertoire que celui de l'exécutable de ce programme.
-    Ceci déclenchera une recherche du nouveau dossier au prochain lancement de ce programme.
+    nouvel emplacement puis supprimer ensuite le fichier 'param64.txt' qui se trouve dans
+    le répertoire  C:\\Users\\nom-utilisateur\\.Convert64  pour Windows et dans le répertoire
+    /home/nom-utilisateur/.Convert64  pour Linux.
+    Ceci déclenchera une nouvelle demande d'emplacement du dossier des images en base 64
+    au prochain lancement de ce programme.
     
     [Convertisseur] : Ce bouton déclenche la fonction de conversion d'une image.
     

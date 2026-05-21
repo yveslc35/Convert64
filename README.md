@@ -1,6 +1,6 @@
 Cette application permet de transformer des images pour pouvoir les stocker directement dans le code d'un programme.
 A partir de n'importe quelle image PNG on transforme celle-ci en base 64 et on l'enregistre dans un dossier qui 
-pourra servir par la suite à tous les programmes pour illuster des icones ou des boutons par exemple.
+pourra servir par la suite à tous les programmes pour illustrer des icônes ou des boutons par exemple.
 
 # Installation de Convert64 sous Linux
 
